@@ -32,9 +32,10 @@ const Home = () => {
 	])
 
 	// const handleOrderClick = async (orderID) => {
-	// 	await API.put('deliveryAPI', '/status', {
+	// const details = await API.put('deliveryAPI', '/status', {
 	// 		body: { orderID },
 	// 	})
+	// console.log(details)
 	// }
 	return (
 		<div className={styles.container}>
